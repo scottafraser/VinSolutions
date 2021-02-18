@@ -60,7 +60,8 @@ namespace VIN_Solutions
             bool TryAgain = true;
             Console.WriteLine("----------------------------------------------");
             Console.WriteLine("");
-            Console.WriteLine("Oh Hello, parses a sentence and replaces each word with the following: first letter, number of distinct characters between first and last character, and last letter. For example, Smooth would become S3h.");
+            Console.WriteLine("Oh hello, this program parses a sentence and replaces each word with the following: first letter, number of distinct characters between first and last character, and last letter. For example, \"You should hire Scott\" would become \"Y1u s4d h2e S3t\".");
+            Console.WriteLine("");
 
             while (TryAgain == true)
             {
